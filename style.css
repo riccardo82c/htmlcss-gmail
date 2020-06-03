@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("https://digital.returnpath.com/wp-content/uploads/blog/2016/06/Emails-with-Blue-Background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    width: 70%;
+    margin: 150px auto;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.36);
+    border-radius: 10px 20px;
+}
+
+header {
+    margin-bottom: 10px;
+}
+
+header img {
+    width: 50px;
+}
+
+h1 {
+    display: inline-block;
+    font-weight: 700;
+    font-size: 50px;
+    color: cornsilk;
+    font-family: 'Alegreya Sans', sans-serif;
+}
+
+.search_section {
+    border: 1px solid rgb(24, 38, 71);
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 8px 16px;
+    text-align: center;
+}
+
+.search_section, .unread_section {
+    padding: 10px;
+}
+
+.search_section input {
+    width: 200px;
+    height: 25px;
+}
+
+.search_section button {
+    width: 100px;
+    height: 25px;
+    color: cornsilk;
+    background-color: rgb(24, 38, 71);
+}
+
+.unread_section {
+    text-align: center;
+}
+
+.unread_section p {
+    color: cornsilk;
+    font-size: 20px;
+    display: inline-block;
+}
+
+.unread_section .n_unread {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    vertical-align: middle;
+    padding: 3px 5px;
+    color: rgb(24, 38, 71);
+    border-radius: 50%;
+    background-color: cornsilk;
+    font-weight: 600;
+}
+
+.email_notification, .unread_message {
+    padding: 10px;
+    margin-bottom: 10px;
+    color: rgb(212, 212, 212);
+    border: 1px solid cornsilk;
+    border-radius: 10px 20px;
+}
+
+.email_element {
+    background-color: rgb(24, 38, 71, 0.80);
+    padding-left: 5px;
+    border: 1px solid rgba(255, 255, 255, 0);
+}
+
+.email_element:hover{
+    border: 1px solid cornsilk;
+    cursor: pointer;
+}
+
+.email_element_read {
+    background-color: rgb(69, 100, 165, 0.80);
+}
+
+.oggetto_mail {
+    font-weight: 600;
+}
+
+.testo_mail:before{
+    content: ' - ';
+}
+
+.testo_mail:after {
+    content: '...';
+}
+
+.star_full:after {
+    content: '\2605';
+}
+
+.star_empty:after {
+    content: '\2606';
+}
+
+/* INSERIRE STAR COME PSEUDOELEMENTO */
+
+.testo_mail {
+    font-weight: 200;
+}
+
+.star_full, .star_empty {
+    color: gold;
+}
+
+footer {
+    font-family: 'Alegreya Sans', sans-serif;
+    font-weight: 400;
+    text-align: right;
+    margin-top: 10px;
+    padding: 10px;
+    color: cornsilk;
+}

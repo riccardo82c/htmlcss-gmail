@@ -1,10 +1,162 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-    <head>
-        <meta charset="utf-8">
-        <title></title>
-    </head>
-    <body>
 
-    </body>
+<head>
+    <meta charset="utf-8">
+    <title>Server posta elettronica</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="icon" href="https://cdn.dribbble.com/users/137192/screenshots/2753624/dribbble.png">
+</head>
+
+<body>
+
+    <!--
+    definisco un div class container che mi contenga tutto il corpo
+    per poter definirne una larghezza e imp. i margini
+    -->
+    <div class="container">
+
+
+        <!-- icona e titolo -->
+        <header>
+            <img src="img/logo.png" alt="logo">
+            <h1>E-m@il is Coming (cit.)</h1>
+
+        </header>
+
+        <main>
+            <!-- section unRead_message -->
+            <section class="unread_message">
+                <div class="search_section">
+                    <input type="text" name="" value="" placeholder=" search">
+                    <button type="button" name="button">VAI</button>
+                </div>
+
+                <div class="unread_section">
+                    <p>You have</p>
+                    <span class="n_unread">30</span>
+                    <p>unread</p>
+                </div>
+
+            </section>
+
+            <!-- section mail_notification -->
+            <section class="email_notification">
+
+                <!-- singolo elemento mail -->
+                <div class="email_element">
+                    <span class="oggetto_mail">
+                        <input type="checkbox" name="" value="">
+                        <span class="star_full"></span>
+                        <span>Oggetto della e-mail</span>
+                    </span>
+                    <span class="testo_mail">
+                        <!-- <span>-</span> -->
+                        <span>testo della e-mail</span>
+                    </span>
+                </div>
+                <div class="email_element">
+                    <span class="oggetto_mail">
+                        <input type="checkbox" name="" value="">
+                        <span class="star_empty"></span>
+                        <span>Oggetto della e-mail</span>
+                    </span>
+                    <span class="testo_mail">
+                        <!-- <span>-</span> -->
+                        <span>altro testo della e-mail</span>
+                    </span>
+                </div>
+                <div class="email_element">
+                    <span class="oggetto_mail">
+                        <input type="checkbox" name="" value="">
+                        <span class="star_full"></span>
+                        <span>Oggetto della e-mail</span>
+                    </span>
+                    <span class="testo_mail">
+                        <!-- <span>-</span> -->
+                        <span>testo della e-mail</span>
+                    </span>
+                </div>
+                <div class="email_element">
+                    <span class="oggetto_mail">
+                        <input type="checkbox" name="" value="">
+                        <span class="star_full"></span>
+                        <span>Oggetto della e-mail</span>
+                    </span>
+                    <span class="testo_mail">
+                        <!-- <span>-</span> -->
+                        <span>ancora un pò di testo della e-mail</span>
+                    </span>
+                </div>
+
+                <div class="email_element email_element_read">
+                    <span class="oggetto_mail ">
+                        <input type="checkbox" name="" value="" checked="true">
+                        <span class="star_empty"></span>
+                        <span>Oggetto della e-mail</span>
+                    </span>
+                    <span class="testo_mail">
+                        <!-- <span>-</span> -->
+                        <span>testo della e-mail</span>
+                    </span>
+                </div>
+                <div class="email_element">
+                    <span class="oggetto_mail">
+                        <input type="checkbox" name="" value="">
+                        <span class="star_empty"></span>
+                        <span>Oggetto della e-mail</span>
+                    </span>
+                    <span class="testo_mail">
+                        <!-- <span>-</span> -->
+                        <span>testo della e-mail</span>
+                    </span>
+                </div>
+
+                <div class="email_element email_element_read">
+                    <span class="oggetto_mail ">
+                        <input type="checkbox" name="" value="" checked="true">
+                        <span class="star_empty"></span>
+                        <span>Oggetto della e-mail</span>
+                    </span>
+                    <span class="testo_mail">
+                        <!-- <span>-</span> -->
+                        <span>testo della e-mail</span>
+                    </span>
+                </div>
+
+                <div class="email_element email_element_read">
+                    <span class="oggetto_mail ">
+                        <input type="checkbox" name="" value="" checked="true">
+                        <span class="star_full"></span>
+                        <span>Oggetto della e-mail</span>
+                    </span>
+                    <span class="testo_mail">
+                        <!-- <span>-</span> -->
+                        <span>testo della e-mail</span>
+                    </span>
+                </div>
+                <div class="email_element">
+                    <span class="oggetto_mail">
+                        <input type="checkbox" name="" value="">
+                        <span class="star_full"></span>
+                        <span>Oggetto della e-mail</span>
+                    </span>
+                    <span class="testo_mail">
+                        <!-- <span>-</span> -->
+                        <span>testo della e-mail</span>
+                    </span>
+                </div>
+            </section>
+
+        </main>
+
+
+        <footer>
+            <p>E-m@il powered by Ric &copy;</p>
+        </footer>
+    </div>
+</body>
+
 </html>
